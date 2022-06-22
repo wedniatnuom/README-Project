@@ -1,7 +1,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-const licences = ["MIT", "Apache", "WTFPL"];
+const licences = ["MIT", "Apache", "WTFPL", "N/A"];
 
 const questions = () => {
     return inquirer.prompt([
@@ -70,7 +70,7 @@ const generateREADME = ({ title, motivation, why, problem, learn, installation, 
 - What did it solve: ${problem}
 - What I learned along the way: ${learn}
 
-## Instalation
+## Installation
 
 Steps required to get off the ground: ${installation}
 
