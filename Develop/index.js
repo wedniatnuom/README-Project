@@ -66,8 +66,11 @@ const generateREADME = ({ title, motivation, why, problem, learn, installation, 
 ## Description
 
 - Project Motivation: ${motivation}
+
 - Purpose: ${why}
+
 - What did it solve: ${problem}
+
 - What I learned along the way: ${learn}
 
 ## Installation
